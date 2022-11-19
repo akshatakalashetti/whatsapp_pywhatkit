@@ -1,10 +1,11 @@
 import pywhatkit
+'''
 phone_number = input("enter the phone_number\n")
 message = input("enter the message you want to send\n")
 hour = int(input("enter the hour\n"))
 minute = int(input("enter minute\n"))
 pywhatkit.sendwhatmsg(phone_number,message,hour,minute)
-
+'''
 '''
 import pywhatkit
 
@@ -25,7 +26,6 @@ pywhatkit.sendwhatmsg_to_group("AB123CDEFGHijklmn", "Hey All!", 0, 0)
 
 # Send a WhatsApp Message to a Group instantly
 pywhatkit.sendwhatmsg_to_group_instantly("AB123CDEFGHijklmn", "Hey All!")
-
-# Play a Video on YouTube
-pywhatkit.playonyt("PyWhatKit")
 '''
+# Play a Video on YouTube
+pywhatkit.playonyt("bts")
